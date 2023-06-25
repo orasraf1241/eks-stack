@@ -293,7 +293,6 @@ resource "aws_iam_role" "AmazonEKSLoadBalancerControllerRole" {
   })
 }
 
-
 # Attaching role to policy
 resource "aws_iam_role_policy_attachment" "AmazonEKSLoadBalancerControllerRolePolicy" {
   policy_arn = "arn:aws:iam:policy/AWSLoadBalancerControllerIAMPolicy"

@@ -291,8 +291,8 @@ resource "aws_iam_role" "AmazonEKSLoadBalancerControllerRole" {
       }
     ]
   })
+   depends_on = [   kubernetes_service_account.eks-serviceaccount ]
 }
-
 
 # Attaching role to policy
 resource "aws_iam_role_policy_attachment" "AmazonEKSLoadBalancerControllerRolePolicy" {
