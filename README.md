@@ -1,5 +1,5 @@
 
-# THIS PROJECT SILL NOT DONE 
+# THIS PROJECT SILL NOT WORK 
 
 # eks-stack
 ## Description
